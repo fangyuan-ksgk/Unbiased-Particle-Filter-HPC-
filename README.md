@@ -7,3 +7,5 @@ To demostrate the parallel power of PPF, a HPC implementation of PPF is also pro
 The file 'Parallel Particle Filter' contains code for PPF, as well as MLPF, tuning functions are also provided for their best performance on any partially observed diffusion with discrete observations models. A experiment section demonstrates the way we conduct numerical experiemnts to compare the performance of the two algorithms on a single processor.
 
 The file 'HPC-PFF' provides HPC implementation of the PPF algorithms, the file is designed to run on KAUST supercomputer Shaheen.
+
+The two .npy files store the observation as well as the fitted constants for the model where the signal process is a Ornstein-Uhlenbeck process.
